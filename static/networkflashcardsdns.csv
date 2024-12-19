@@ -1,0 +1,27 @@
+Question,Answer
+name for DNS records,Resource Records
+Describes DNS zone details,Start of Authority
+DNS record that gives the IP of a host,Address Records: A or AAAA
+DNS record that is a name of an alias of another name,CNAME
+DNS record for locating services,Service record
+Determines host name for mail server,Mail Exchanger Record (MX)
+DNS record that lists the name servers for a domain,Name Server Records
+DNS record that uses IP address to get the FQDN,PTR
+DNS human readable text information,Text records
+Text record that prevents mail spoofing,SPF protocol (Sender Policy Framework)
+Text record that digitally signs outgoing mail,DKIM  (Domain Keys Identified Mail)
+Replicates a DNS database,Zone transfers
+What does DNS do? ,converts text into ip address
+How is DNS organized,hierarchy
+Examples of top level domains?,.com .org .net
+What is the entire name of an internet host?,FQDN or Fully Qualified Domain name
+Name for DNS that is locally managed?,Internal DNS
+Name for DNS managed by a third party?,External DNS
+DNS query that delegates lookup to a DNS server?,Recursive Query
+DNS query where all the queries are done by local machine,Iterative Query
+Type of DNS response that does not come from DNS server,Non-authoritative
+Type of DNS response that comes from DNS server,Authoritative
+Metric used to determine how long a cached entry is used?,TTL or time to live
+Type of DNS lookup where a FQDN is provided,Forward lookup
+Type of DNS lookup where an IP address is provided,Reverse DNS
+What triggers a Zone transfer,Change in serial number
